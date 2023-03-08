@@ -1,2 +1,2 @@
 # ma-lumotlar_bazasi
-Dasturchilar uchun "Yuk tashish kompaniyasi" ma'lumotlar bazasi shabloni (PostgreSQL)
+"Yuk tashish kompaniyasi" ma'lumotlar bazasi shabloni (PostgreSQL)
