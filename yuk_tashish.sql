@@ -1,3 +1,5 @@
+CREATE DATABASE yuk_tashish; /* "yuk_tashish" nomli malumotlar ba'zasini yaratildi*/
+
 create table korxona (
 	id INT,
 	shirkat_nomi VARCHAR(50),
