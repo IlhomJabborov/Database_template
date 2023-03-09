@@ -19,7 +19,7 @@ create table mijozlar (
 	familiya VARCHAR(50) NOT NULL,
 	tel_raqam VARCHAR(50) NOT NULL,
 	manzil VARCHAR(50) NOT NULL,
-	hisob_raqam VARCHAR(50) NOT NULL
+	hisob_raqam VARCHAR(50) NOT NULL UNIQUE
 );
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (1, 'Lyndy', 'Leaton', '+52 (244) 150-5031', 'Mexico', '4041008640009');
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (2, 'Brittani', 'Couldwell', '+52 (933) 578-7288', 'Mexico', '4041008640009');
