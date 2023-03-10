@@ -123,10 +123,10 @@ insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values 
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (100, 'Randy', 'Baselli', '+52 (589) 977-2578', 'Mexico', '4041008640009');
 
 create table transport (
-	id INT,
-	avto_raqam VARCHAR(50),
-	rusum VARCHAR(50),
-	yuk_hajmi DECIMAL(11,7)
+	id INT PRIMARY KEY NOT NULL,
+	avto_raqam VARCHAR(50) NOT NULL,
+	rusum VARCHAR(50) NOT NULL,
+	yuk_hajmi VARCHAR(10) NOT NULL
 );
 insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (1, 'WAUBC48H35K766640', 'Q', 2518.20);
 insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (2, '1GTN1TEX9DZ299130', 'Sunfire', 1779.38);
@@ -135,3 +135,13 @@ insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (4, '3D73Y3CLXAG
 insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (5, '2G4WS55J931463794', 'Dakota Club', 972.91);
 insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (6, 'SALME1D45BA728635', 'Sienna', 2335.52);
 insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (7, 'WAUKF98E88A184019', 'iQ', 2609.75);
+
+create table tulov_usuli (
+	id INT PRIMARY KEY NOT NULL,
+	tulov_turi VARCHAR(50) NOT NULL
+);
+insert into tulov_usuli (id, tulov_turi) values (1, 'naqt');
+insert into tulov_usuli (id, tulov_turi) values (2, 'karta');
+insert into tulov_usuli (id, tulov_turi) values (3, 'muddatli');
+
+
