@@ -121,3 +121,17 @@ insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values 
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (98, 'Dasha', 'Birnie', '+52 (963) 679-6819', 'Mexico', '4041008640009');
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (99, 'Berky', 'McCaskell', '+52 (974) 291-6573', 'Mexico', '4041008640009');
 insert into mijozlar (id, ism, familiya, tel_raqam, manzil, hisob_raqam) values (100, 'Randy', 'Baselli', '+52 (589) 977-2578', 'Mexico', '4041008640009');
+
+create table transport (
+	id INT,
+	avto_raqam VARCHAR(50),
+	rusum VARCHAR(50),
+	yuk_hajmi DECIMAL(11,7)
+);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (1, 'WAUBC48H35K766640', 'Q', 2518.20);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (2, '1GTN1TEX9DZ299130', 'Sunfire', 1779.38);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (3, 'WBAYF4C55ED750250', 'Camry', 1030.93);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (4, '3D73Y3CLXAG353815', 'B-Series', 2167.33);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (5, '2G4WS55J931463794', 'Dakota Club', 972.91);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (6, 'SALME1D45BA728635', 'Sienna', 2335.52);
+insert into transport (id, avto_raqam, rusum, yuk_hajmi) values (7, 'WAUKF98E88A184019', 'iQ', 2609.75);
